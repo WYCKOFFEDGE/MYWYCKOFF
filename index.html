@@ -49,18 +49,18 @@
             margin-top: 20px;
         }
         .intro, .highlights, .story, .hotspots, .systems, .schedule, .cta {
-            background-color: #f9f9f9; /* Light gray for modules on white background */
+            background-color: #f9f9f9; /* Light gray for modules */
             border-radius: 8px;
             padding: 30px;
             margin: 20px 0;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         .system {
             margin-bottom: 20px;
         }
         .system p, .highlights p, .hotspots p {
             margin: 10px 0;
-            color: #555555; /* Slightly lighter text for paragraphs */
+            color: #555555;
         }
         .cta-button {
             display: inline-block;
@@ -75,19 +75,23 @@
         .cta-button:hover {
             background-color: #0056b3;
         }
+        .cta p.contact {
+            font-size: 24px; /* Larger font for contact */
+            margin: 20px 0;
+        }
+        .cta p.contact a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .cta p.contact a:hover {
+            text-decoration: underline;
+        }
         footer {
             text-align: center;
             padding: 20px;
             background-color: #ffffff;
-            color: #777777; /* Lighter gray for footer */
+            color: #777777;
             font-size: 14px;
-        }
-        footer a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        footer a:hover {
-            text-decoration: underline;
         }
     </style>
 </head>
@@ -142,7 +146,9 @@
         </section>
 
         <section class="systems">
-            <h2>五大交易系统</h2>
+            <h2>四大交易系统</h2>
+            <p>为了更高效帮助大家早日进入盈利状态，我们不断探索交易员成长计划的改革方案。根据反馈，我们将以交易系统为板块为大家服务。</p>
+            <p>下面每套系统都是独立交易系统，独立课程。每个系统学习2-3个月</p>
             <div class="system">
                 <h3>趋势轨道跟踪交易系统</h3>
                 <p>✔ 适用于短线/中长线交易</p>
@@ -158,31 +164,35 @@
                 <p>✔ 专属讨论群 | 专属作业推送与解答</p>
             </div>
             <div class="system">
-                <h3>突破交易系统</h3>
-                <p>✔ 适用于高波动市场</p>
-                <p>✔ 学习突破信号识别与止损设置</p>
-                <p>✔ 补充知识：K线形态、波动率分析</p>
+                <h3>波段交易WRB交易系统</h3>
+                <p>✔ 适用于趋势中主要波段交易</p>
+                <p>✔ 学习判断方向流程，执行流程，出场流程</p>
+                <p>✔ 交易方向苗头（BIAS）判断</p>
+                <p>✔ 补充基础知识：强势弱势量价知识</p>
                 <p>✔ 专属讨论群 | 专属作业推送与解答</p>
             </div>
             <div class="system">
-                <h3>反转交易系统</h3>
-                <p>✔ 捕捉市场顶部与底部</p>
-                <p>✔ 学习反转信号与风险管理</p>
-                <p>✔ 补充知识：支撑阻力位、成交量确认</p>
+                <h3>趋势反转交易系统</h3>
+                <p>✔ 机构接盘交易系统</p>
+                <p>✔ 机构出货交易系统</p>
+                <p>✔ 传统威科夫底部交易系统流程</p>
+                <p>✔ 传统威科夫顶部交易系统流程</p>
+                <p>✔ 补充基础知识：点数图计算，威科夫底部量价，顶部量价，需求区，供应区</p>
                 <p>✔ 专属讨论群 | 专属作业推送与解答</p>
             </div>
             <div class="system">
-                <h3>综合交易系统</h3>
-                <p>✔ 融合多系统优势，灵活应对市场</p>
-                <p>✔ 学习资金管理与交易心理</p>
-                <p>✔ 补充知识：交易日志、胜率分析</p>
+                <h3>趋势中交易系统</h3>
+                <p>✔ 趋势阶段交易：上涨趋势的回调交易流程， 下降趋势的反弹交易流程</p>
+                <p>✔ 深度回调阶段交易流程</p>
+                <p>✔ 正常回调交易流程</p>
+                <p>✔ 看方向流程，执行流程，出场流程</p>
+                <p>✔ 补充基础知识：趋势健康判断，量价基础知识，需求区，供应区，点数图</p>
                 <p>✔ 专属讨论群 | 专属作业推送与解答</p>
             </div>
         </section>
 
         <section class="schedule">
             <h2>学习与直播安排</h2>
-            <p>📡 每周四喜马拉雅直播 | 4月起尝试同步YouTube视频直播！</p>
             <p>🎙 每周四，我们在喜马拉雅进行交易分享与实战解析！</p>
             <p>📺 4月份起，我们将尝试同步YouTube视频直播，随时随地加入学习！</p>
         </section>
@@ -191,14 +201,14 @@
             <h2>立即加入</h2>
             <p>⏳ 未来的交易路上，你不会再孤军奋战！</p>
             <p>✅ 系统化成长路径，从入门到精通，助你构建盈利交易体系！</p>
-            <p><a href="mailto:your-email@example.com" class="cta-button">申请邮件群</a></p>
-            <p><a href="https://amazon.com" target="_blank" class="cta-button">点击阅读《量价操盘法》</a></p>
+            <p>✅ 我们成立了孟老师读者邮件群, 群的宗旨是跟踪成长计划进度，发表交易相关文章，推送作业等，内容使用邮箱推送。</p>
+            <p><a href="mailto:zibencity@outlook.com" class="cta-button">申请加入邮件群</a></p>
+            <p class="contact">联系我们: <a href="mailto:zibencity@outlook.com">zibencity@outlook.com</a></p>
         </section>
     </div>
 
     <footer>
         <p>© 2025 交易员成长计划. All Rights Reserved.</p>
-        <p>联系我们: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
     </footer>
 </body>
 </html>
